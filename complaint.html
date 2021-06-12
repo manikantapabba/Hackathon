@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> Complaint </title>
+ <style type="text/css">
+  body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic0.jpg);
+    background-size: cover;
+   }
+   p{
+    font-size: 20px;
+    color:white;
+   }
+   h1{
+    font-size:30px;
+    color:white;
+   }
+ </style>
+  </head>
+  <body>
+   <a href="homepage.php"><b>>>BACK<<</b></a>
+    <center>
+    <br/> <h1><font size="7">COMPLAINT</font></h1><br/>
+<form method="POST" action="complaint.php" enctype="multipart/form-data">
+   <table>
+     <!--<tr>
+      <td><font size="5" color="#ffffff">
+        Date :</font>
+        <input type="date" name="date" required><br/><br/>
+       </td>
+      </tr>-->
+       <tr>
+       <td> 
+        <table>
+          <tr>
+          <td>
+         <font size="5" color="#ffffff" required>District:</font>
+              <select name="district">
+   <option value="Districts">Districts</option>
+  <option value="Amreli">Amreli</option>
+  <option value="Ahmedabad">Ahmedabad</option>
+  <option value="Vadodara">Vadodara</option>
+  <option value="Anand">Anand</option>
+  <option value="Chhota Udaipur">Chhota Udaipur</option>
+  <option value="Dahod">Dahod</option>
+  <option value="Kheda">Kheda</option>
+  <option value="Mahisagar">Mahisagar</option>
+  <option value="Panchmahal">Panchmahal</option>
+  <option value="Gandhinagar">Gandhinagar</option>
+  <option value="Banaskantha">Banaskantha</option>
+  <option value="Aravalli">Aravalli</option>
+  <option value="Rajkot">Rajkot</option>
+  <option value="sabarkantha">sabarkantha</option>
+  <option value="Patan">Patan</option>
+  <option value="Mehsana">Mehsana</option>
+  <option value="Valsad">Valsad</option>
+  <option value="Tapi">Tapi</option>
+  <option value="Navsari">Navsari</option>
+  <option value="Narmada">Narmada</option>
+  <option value="Dang">Dang</option>
+  <option value="Bharuch">Bharuch</option>
+  <option value="Surat">Surat</option>
+  <option value="Kachchh">Kachchh</option>
+  <option value="Surendranagar">Surendranagar</option>
+  <option value="Porbandar">Porbandar</option>
+  <option value="Morbi">Morbi</option>
+  <option value="Junagadh">Junagadh</option>
+  <option value="Jamnagar">Jamnagar</option>
+  <option value="Gir Somnath">Gir Somnath</option>
+  <option value="Devbhoomi Dwarka">Devbhoomi Dwarka</option>
+  <option value="Botad">Botad</option>
+  <option value="Bhavnagar">Bhavnagar</option>
+</select> <br/><br/>
+ </td>
+ </tr>
+ <tr>
+  <td>   
+       <font size="5" color="#ffffff">Pin code:</font>
+       <input type="text" name="pin" maxlength="10" placeholder="Enter pin code" required style = "width : 200px ; border-radius : 15px; height : 30px;padding-left : 15px;"><br/><br/>
+     
+   </td>
+ </tr>
+ <tr>
+  <td>   
+    
+       <font size="5" color="#ffffff">Village:</font>
+       <input type="text" name="village" maxlength="20" placeholder="Enter village name" required><br/><br/>
+     
+   </td>
+ </tr>
+ <tr>
+  <td>   
+    
+       <font size="5" color="#ffffff">Highway number:</font>
+       <input type="text" name="hi_no" maxlength="10" placeholder="Enter highway number" required><br/><br/>
+     
+   </td>
+ </tr>
+ <tr>
+  <td>   
+     
+       <font size="5" color="#ffffff">Landmark:</font>
+       <input type="text" name="l_m" maxlength="20" placeholder="Enter land mark" required><br/><br/>
+     
+   </td>
+ </tr>
+ </table>
+          </td>
+        </tr>
+<tr>
+  <td>
+    <font size="5" color="#ffffff">Upload pic:</font>
+    
+      <input type="file" name="pic"  required><br/><br/>
+    
+    </td>
+</tr>
+<tr>
+  <td>
+    
+      <font size="5" color="#ffffff">Description :</font><br/>
+            <textarea rows="12" cols="45" name="des" required>
+            </textarea>
+      
+    </td>
+  </tr>
+  <tr>
+   <td>
+      <center><input type="submit" value="Submit"></center>
+</table>
+</form>
+</center>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form creation</title>
+	<link rel="stylesheet" type="text/css" href="css-r/style.css">
+</head>
+<body>
+	<h1 >REGISTRATION FORM</h1>
+	<div class = "register">
+		<form method="POST" id="register" action="cregister.php" enctype="multipart/form-data">
+            <label><font size="3">COMPANY NAME/AUTHORITY NAME :</font> </label><br>
+            <input type="text" name="com_name" id="name"
+            placeholder="ENTER YOUR COMPANY NAME" required><br><br>
+            <label><font size="3">MOBILE NUMBER :</font> </label><br>
+            <input type="phone" name="mobile_no" id="num"
+            placeholder="ENTER YOUR MOBILE NUMBER" required><br><br>
+            <label><font size="3">EMAIL ID : </font></label><br>
+            <input type="email" name="email" id="name"
+            placeholder="ENTER YOUR EMAIL" required><br><br>
+			<label><font size="3">UPLOAD LICENSE: </font></label><br>
+            <input type="file" name="license"  required><br/><br/>
+            <input type="submit" value="Submit" id="sub">
+		</form>
+	</div>
+</body>
+</html>
